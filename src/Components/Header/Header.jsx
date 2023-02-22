@@ -8,7 +8,7 @@ export const Header = () => {
         <div>
           <RxHamburgerMenu size={35} />{" "}
         </div>
-        <div className={styles.logo} >
+        <div className={styles.logo}>
           <img
             src="https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,/v1677087524/jhplzejmteqwvj58wkya.svg"
             height={100}
@@ -20,27 +20,30 @@ export const Header = () => {
       </section>
 
       <section className={styles.main}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam molestiae
-        maxime enim. Porro maiores harum quos ut minus aliquid, laudantium
-        recusandae dolor expedita perferendis hic minima dolorem consequatur
-        neque molestiae.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam molestiae
-        maxime enim. Porro maiores harum quos ut minus aliquid, laudantium
-        recusandae dolor expedita perferendis hic minima dolorem consequatur
-        neque molestiae.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam molestiae
-        maxime enim. Porro maiores harum quos ut minus aliquid, laudantium
-        recusandae dolor expedita perferendis hic minima dolorem consequatur
-        neque molestiae.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam molestiae
-        maxime enim. Porro maiores harum quos ut minus aliquid, laudantium
-        recusandae dolor expedita perferendis hic minima dolorem consequatur
-        neque molestiae.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam molestiae
-        maxime enim. Porro maiores harum quos ut minus aliquid, laudantium
-        recusandae dolor expedita perferendis hic minima dolorem consequatur
-        neque molestiae.
-
+        <div className={styles.maindetails}>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+          molestiae maxime enim. Porro maiores harum quos ut minus aliquid,
+          laudantium recusandae dolor expedita perferendis hic minima dolorem
+          consequatur neque molestiae. Lorem ipsum dolor sit, amet consectetur
+          adip hic
+          minima dolorem consequatur neque molestiae. maxime enim. Porro maiores
+          harum quos ut minus aliquid, laudantium recusandae dolor expedita
+          perferendis hic minima dolorem consequatur neque molestiae. Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Nam molestiae
+          maxime enim. Porro maiores harum quos ut minus aliquid, laudantium
+          recusandae dolor expedita perferendis hic minima dolorem consequatur
+          nequ
+          a
+        </div>
+      </section>
+      <section className={styles.footer}>
+        <ul className={styles.menu}>
+            <li className="cursor no-list-style icons "><img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095115/jhvxin4tpyh0t2g2inf9.svg" /></li>
+            <li className="cursor no-list-style icons"><img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095365/urqd3qte58ir31zar1go.svg" /></li>
+            <li className="cursor no-list-style center-icon padding-top"><img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095578/tq48bp7xzsqodv9k6bk1.svg  "  className="center-img" sizes="2"/></li>
+            <li className="cursor no-list-style icons"><img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095365/bu2ryuxbcpkotrmqlwjb.svg" /></li>
+            <li className="cursor no-list-style icons"><img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095449/fciekeh077emwyeutcso.svg" /></li>
+        </ul>
       </section>
     </section>
   );
