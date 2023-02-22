@@ -44,8 +44,16 @@ export const Cards = () => {
             className={styles.cards}
           >
             <div>
+             
               <div className={styles.cardimage}>
                 <img src={card.image} width="100%" className="border-radius" />
+                <div className={styles.cardimagetext}>
+                <div className={styles.cardPrice}> {card.game}</div>
+                <div className={styles.moveText}>KIll Champion </div>
+                <div className={styles.subtitle}> Earn Per Kill ₹80 }</div>
+              </div>
+             
+              
               </div>
               <div className="flex gap size-10 padding2">
                 <div className="flex gap">
