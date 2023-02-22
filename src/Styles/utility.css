@@ -1,26 +1,53 @@
 :root {
-    --primary-color:#070b28;
-  
-  }
+  --primary-color: #070b28;
+  --yellow-color:#FFC609;
+}
+.flex {
+  display: flex;
+}
+.cursor {
+  cursor: pointer;
+}
+.no-list-style {
+  list-style: none;
+}
+.center-icon {
+  background-color: red;
+  padding: 12px;
+  border-radius: 50%;
+}
 
-  .cursor{
-    cursor: pointer;
-  }
-  .no-list-style{
-    list-style: none;
-  }
-  .center-icon{
-   background-color:red;
-   padding: 12px;
-   border-radius: 50%;
-  }
+.padding-top {
+  padding-top: 14px;
+}
 
-  .padding-top{
-    padding-top: 14px;
-  }
+.icons {
+  display: flex;
+  align-self: end;
+}
 
-  .icons{
-    display: flex;
-    align-self: end;
-    
-  }
+
+.title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin: 20px 0 14px;
+  gap:1rem;
+}
+.title-icon-color{
+  color:var(--yellow-color)
+}
+.gap{
+justify-content: space-between
+}
+
+.border-radius{
+  border-radius: 5px;
+}
+
+.size-10{
+font-size: 12px;
+}
+.padding2{
+padding: 2px;
+}

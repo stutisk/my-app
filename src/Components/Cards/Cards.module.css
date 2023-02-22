@@ -1,0 +1,14 @@
+.cardsWrapper {
+  width: 30%;
+}
+
+.cards {
+  padding: 5px;
+  border-radius: 5px;
+}
+.cardPrice{
+    font-weight: 700;
+}
+.cardimage{
+    margin-top: -15px;
+}
