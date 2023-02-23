@@ -63,3 +63,6 @@ padding: 2px;
 .wrap{
   flex-wrap: wrap;
 }
+.justify-content{
+  justify-content: center;
+}
