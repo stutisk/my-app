@@ -1,4 +1,5 @@
 import { Cards } from "../Cards/Cards";
+import { Cards2 } from "../Cards/Cards2";
 import styles from "../Header/Header.module.css";
 
 export const Main = () => {
@@ -22,7 +23,7 @@ export const Main = () => {
         <div>Alll games</div>
       </div>
       <div className="flex gap">
-        <Cards />
+        <Cards2 />
       </div>
     
 

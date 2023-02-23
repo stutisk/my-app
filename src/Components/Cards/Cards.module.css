@@ -15,6 +15,12 @@
 
     background-image: linear-gradient(rgba(7, 11, 40, 0) 0%, rgb(0, 0, 0) 100%);
 }
+.card2image{
+  padding-top: 1.5rem;
+  position: relative;
+
+  background-image: linear-gradient(rgba(7, 11, 40, 0) 0%, rgb(0, 0, 0) 100%);
+}
 .cardimagetext{
   position: absolute;
   left: 0;
@@ -27,11 +33,23 @@
     flex-direction: column;
     gap:1rem
 }
+.card2imagetext{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+    right: 0;
+    color: #fff;
+ font-weight: 500;
+    padding: 30px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem
+}
 .moveText{
   animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-        color:#F92C2C;;
+  color:#F92C2C;;
 }
 .subtitle{
   font-size: 10px;

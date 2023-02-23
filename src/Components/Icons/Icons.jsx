@@ -1,3 +1,3 @@
-import {RxHamburgerMenu} from "react-icons/rx";
+import {GiHamburgerMenu}  from "react-icons/gi";
 import {TfiWallet} from "react-icons/tfi";
-export {RxHamburgerMenu,TfiWallet}
+export {GiHamburgerMenu,TfiWallet}

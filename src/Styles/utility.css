@@ -41,12 +41,18 @@
 justify-content: space-between
 }
 
+.gap2{
+  gap:10px
+}
 .border-radius{
   border-radius: 5px;
 }
 
 .size-10{
 font-size: 12px;
+}
+.size5{
+  font-size: 5px;
 }
 .padding2{
 padding: 2px;

@@ -1,13 +1,13 @@
 import styles from "../Header/Header.module.css";
 
-import { RxHamburgerMenu, TfiWallet } from "../Icons/Icons";
+import { GiHamburgerMenu, TfiWallet } from "../Icons/Icons";
 import { Main } from "../Main/Main";
 export const Header = () => {
   return (
     <section className={styles.mainwrapper}>
       <section className={styles.header}>
         <div>
-          <RxHamburgerMenu size={35} />{" "}
+          <GiHamburgerMenu size={35} />{" "}
         </div>
         <div className={styles.logo}>
           <img
