@@ -13,6 +13,7 @@ export const Header = () => {
           <img
             src="https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,/v1677087524/jhplzejmteqwvj58wkya.svg"
             height={100}
+            alt="logo"
           />
         </div>
         <div>
@@ -28,23 +29,23 @@ export const Header = () => {
       <section className={styles.footer}>
         <ul className={styles.menu}>
           <li className="cursor no-list-style icons ">
-            <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095115/jhvxin4tpyh0t2g2inf9.svg" />
+            <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095115/jhvxin4tpyh0t2g2inf9.svg"  alt="footer-icon"  />
           </li>
           <li className="cursor no-list-style icons">
-            <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095365/urqd3qte58ir31zar1go.svg" />
+            <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095365/urqd3qte58ir31zar1go.svg"  alt="footer-icon" />
           </li>
           <li className="cursor no-list-style center-icon padding-top">
             <img
-              src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095578/tq48bp7xzsqodv9k6bk1.svg  "
+              src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095578/tq48bp7xzsqodv9k6bk1.svg  " alt="footer-icon"
               className="center-img"
               sizes="2"
             />
           </li>
           <li className="cursor no-list-style icons">
-            <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095365/bu2ryuxbcpkotrmqlwjb.svg" />
+            <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095365/bu2ryuxbcpkotrmqlwjb.svg"  alt="footer-icon" />
           </li>
           <li className="cursor no-list-style icons">
-            <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095449/fciekeh077emwyeutcso.svg" />
+            <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677095449/fciekeh077emwyeutcso.svg" alt="footer-icon"  />
           </li>
         </ul>
       </section>

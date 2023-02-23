@@ -6,7 +6,7 @@ export const Main = () => {
     <div className={styles.maindetails}>
       <div className="flex  title margin-top2">
         <div>
-          <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677101510/had8cnzapeh3nltqgngs.svg" />
+          <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677101510/had8cnzapeh3nltqgngs.svg" alt="footer-icon" />
         </div>
         <div className="title-icon-color">|</div>
         <div>Featured Tournaments</div>
@@ -16,7 +16,7 @@ export const Main = () => {
       </div>
       <div className="flex  title margin-top2">
         <div>
-          <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677105672/demtuq79ffukvgii8ei6.svg" />
+          <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677105672/demtuq79ffukvgii8ei6.svg" alt="footer-icon" />
         </div>
         <div className="title-icon-color">|</div>
         <div>Alll games</div>
