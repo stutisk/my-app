@@ -22,7 +22,7 @@ export const Main = () => {
         <div className="title-icon-color">|</div>
         <div>Alll games</div>
       </div>
-      <div className="flex gap">
+      <div className="flex gap2 wrap ">
         <Cards2 />
       </div>
     

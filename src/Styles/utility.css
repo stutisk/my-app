@@ -60,3 +60,6 @@ padding: 2px;
 .margin-top2{
   margin-top: 2rem;
 }
+.wrap{
+  flex-wrap: wrap;
+}
