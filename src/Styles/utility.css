@@ -1,6 +1,9 @@
 :root {
   --primary-color: #070b28;
   --yellow-color:#FFC609;
+  --red-color:#F92C2C;
+  --white-color:white;
+
 }
 .flex {
   display: flex;

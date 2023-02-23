@@ -6,52 +6,69 @@
   padding: 5px;
   border-radius: 5px;
 }
-.cardPrice{
-    font-weight: 700;
+.cardPrice {
+  font-weight: 700;
 }
-.cardimage{
-    margin-top: -15px;
-    position: relative;
+.cardimage {
+  margin-top: -15px;
+  position: relative;
 
-    background-image: linear-gradient(rgba(7, 11, 40, 0) 0%, rgb(0, 0, 0) 100%);
+  background-image: linear-gradient(rgba(7, 11, 40, 0) 0%, rgb(0, 0, 0) 100%);
 }
-.card2image{
+.card2image {
   padding-top: 1.5rem;
   position: relative;
 
   background-image: linear-gradient(rgba(7, 11, 40, 0) 0%, rgb(0, 0, 0) 100%);
 }
-.cardimagetext{
+.cardimagetext {
   position: absolute;
   left: 0;
   top: 0;
-    right: 0;
-    color: #fff;
- font-weight: 500;
-    padding: 30px 5px 5px;
-    display: flex;
-    flex-direction: column;
-    gap:1rem
+  color: var(--white-color);
+  font-weight: 500;
+  padding: 30px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.card2imagetext{
+.card2imagetext {
   position: absolute;
   left: 0;
   bottom: 0;
-    right: 0;
-    color: #fff;
- font-weight: 500;
-    padding: 30px 5px 5px;
-    display: flex;
-    flex-direction: column;
-    gap:1rem
+  right: 0;
+  color: var(--white-color);
+  font-weight: 500;
+  padding: 30px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.moveText{
+.card2uppertext {
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+  right: 0;
+  color: var(--white-color);
+  font-weight: 500;
+  padding: 30px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.moveText {
   animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: infinite;
-  color:#F92C2C;;
+  color: var(--red-color);
 }
-.subtitle{
+.move2Text {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  color: var(--white-color);
+}
+.subtitle {
   font-size: 10px;
 }
 @keyframes slidein {
