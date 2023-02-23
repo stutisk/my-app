@@ -1,10 +1,12 @@
 import { Cards } from "../Cards/Cards";
 import { Cards2 } from "../Cards/Cards2";
 import styles from "../Header/Header.module.css";
+import { Slider } from "../Slider/Slider";
 
 export const Main = () => {
   return (
     <div className={styles.maindetails}>
+      <Slider/>
       <div className="flex  title margin-top2">
         <div>
           <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1677101510/had8cnzapeh3nltqgngs.svg" alt="footer-icon" />

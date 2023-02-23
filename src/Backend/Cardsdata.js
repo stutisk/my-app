@@ -30,6 +30,25 @@ const Cardsdata = [
         "https://res.cloudinary.com/dvbw8xujd/image/upload/v1677104346/xxklyxsgqwczy7x6bb3b.jpg",
     },
   ];
+  const Sliderdata = [
+    {
+      id: 1,
+     
+      image:
+        "https://res.cloudinary.com/dvbw8xujd/image/upload/v1677136464/kk0abipwczpk8dlxxzr9.jpg",
+    },
+    {
+      id: 2,
+   
+      image:
+        "https://res.cloudinary.com/dvbw8xujd/image/upload/v1677136464/kk0abipwczpk8dlxxzr9.jpg",
+    },
+    {
+     
+      image:
+        "https://res.cloudinary.com/dvbw8xujd/image/upload/v1677136464/kk0abipwczpk8dlxxzr9.jpg",
+    },
+  ];
   const Cardsdata2 = [
     {
       id: 1,
@@ -132,4 +151,4 @@ const Cardsdata = [
     },
   ];
 
-  export {Cardsdata,Cardsdata2}
+  export {Cardsdata,Cardsdata2,Sliderdata}
